@@ -47,6 +47,38 @@ Interested in building reliable, user-focused applications and improving softwar
 
 ---
 
+## 💻 Experience
+
+### QA Engineer
+- Testing web, desctop, mobile and VR applications (including simulations: car repair, airplane repair, cooking)
+- Created and maintained test documentation: test plans, test cases, checklists, and test result reports.
+- Finding and documenting bugs
+- Working with development teams to reproduce and fix issues
+- Testing across multiple real devices and cloud platforms
+
+---
+
+## 🚀 Projects
+
+### Test Automation Project (Playwright) in RedRover School
+- Writing tests using Playwright
+- Participation in the implementation of the Page Object Model
+- Testing various web application functionality
+- Practicing test structure and maintainability
+
+---
+
+## 🎓 Education & Certificates
+
+- Self-learning: JavaScript, Test Automation
+- Meta (Coursera) — Programming with JavaScript (May 15, 2025)
+- Udemy — Wanna Learn JMeter? (Jan 7, 2024)
+- Udemy — Software performance testing using JMeter (Oct 10, 2023)
+- Stepik — Web Development for Beginners: HTML & CSS (Apr 2023)
+- IT-Academy — Mobile Application Testing (Jan–Feb 2023)
+- IT-Academy — Software Testing (Sep–Dec 2021)
+
+
 
 
 

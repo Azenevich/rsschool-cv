@@ -21,7 +21,7 @@ Interested in building reliable, user-focused applications and improving softwar
 ## 🛠️ Skills
 
 ### Testing
-- Manual Testing (Web, Mobile, Desctop, VR)
+- Manual Testing (Web, Mobile, Desktop, VR)
 - Testing Types: Functional, Regression, Integration, Black-box, Smoke, Exploratory, Usability, Immersive, API, Performance
 - Test Documentation: Test Plans, Test Cases, Checklists, Test Result Reports
 - Bug Reporting & Tracking
@@ -50,7 +50,7 @@ Interested in building reliable, user-focused applications and improving softwar
 ## 💻 Experience
 
 ### QA Engineer
-- Testing web, desctop, mobile and VR applications (including simulations: car repair, airplane repair, cooking)
+- Testing web, Desktop, mobile and VR applications (including simulations: car repair, airplane repair, cooking)
 - Created and maintained test documentation: test plans, test cases, checklists, and test result reports.
 - Finding and documenting bugs
 - Working with development teams to reproduce and fix issues

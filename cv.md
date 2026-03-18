@@ -1,15 +1,9 @@
 # Anastasiya Zenevich  
 QA Engineer (Manual / Automation)
 
-<table>
-  <tr>
-    <td>
-    </td>
-    <td>
-      <img src="./assets/photo.jpg" width="130"/>
-    </td>
-  </tr>
-</table>
+<p align="left">
+  <img src="./assets/photo.jpg" width="120" style="border-radius: 10px;"/>
+</p>
 
 ## ⚖️ QA Engineer (Manual / Automation)
 

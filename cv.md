@@ -78,6 +78,39 @@ Interested in building reliable, user-focused applications and improving softwar
 - IT-Academy — Mobile Application Testing (Jan–Feb 2023)
 - IT-Academy — Software Testing (Sep–Dec 2021)
 
+---
+## 🖥️ Code example (JavaScript):
+```
+function strCount(obj){
+  let result = 0;
+  for (let key in obj) {
+    const value = obj[key];
+
+    if (typeof value === "string") {
+      result++;
+    }
+    else if (typeof value === 'object' && value !== null) {
+      result += strCount(value)
+    }
+  }
+  return result;
+}
+```
+---
+
+## 📈 Current Focus
+
+- Improving JavaScript skills for automation
+- Learning Playwright deeper 
+- Understanding testing architecture and frameworks
+- Practicing algorithmic tasks
+
+---
+
+## 🌍 Languages
+
+- Russian — Native
+- English — Intermediate+
 
 
 

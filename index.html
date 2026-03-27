@@ -3,8 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="./assets/icon/favicon.ico"/>
+    <title>Anastasiya Zenevich CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!--<link rel="stylesheet" href="normalize.css"> --> <!--но файла нет в репозитории → GitHub Pages сломает стиль.-->
+    <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#work-experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#codeExample" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#professional-contributions" class="nav-link">Contributions</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <h1>
+            <span class="first-name">Anastasiya</span>
+            <span class="last-name">Zenevich</span>
+        </h1>
+        <p class="role">Quality Assurance Engineer</p>
+        <hr>
+    <div class="main-container">
+        <aside class="column" id="main-left">
+            <section class="contacts" id="contacts">
+                <h2>CONTACT</h2> <!--оформить в виде списка-->
+                <ul class="contacts-list">
+                    <li class="contacts-item">
+                        <p><i class="fa fa-envelope"></i>
+                            <a href="mailto:a.zenevich@bk.ru">anastzenev@gmail.com</a>
+                        </p>
+                    </li>
+                    <li class="contacts-item">
+                        <p><i class="fab fa-github"></i>
+                            <a href="https://github.com/Azenevich" target="_blank" rel="noopener">github.com/Azenevich</a>
+                        </p>
+                    </li>
+                    <li class="contacts-item">
+                        <p><i class="fab fa-linkedin"></i>
+                            <a href="https://linkedin.com/in/anastasiyazenevich" target="_blank"
+                                rel="noopener">anastasiyazenevich</a>
+                        </p>
+                    </li>
+                    <li class="contacts-item">
+                        <p><i class="fab fa-discord"></i>Anastasiya Zenevich (@Azenevich)</p>
+                    </li>
+                </ul>
+            </section>
+    
+            <section class="skills" id="skills">
+                <h2>SKILLS</h2>
+                <p><strong>Testing:</strong>
+                    <ul class="testing-list">
+                        <li class="testing-item">Functional, Regression, Integration, Black-box, Exploratory, Immersive, API, Performance</li>
+                    </ul>                    
+                </p>
+                <p><strong>Test Management & Tools:</strong></p>
+                <ul class="skills-list">
+                    <li class="skills-item"><strong>Test Management:</strong> Jira, Qase, TestRail</li>
+                    <li class="skills-item"><strong>API:</strong> Postman, Swagger</li>
+                    <li class="skills-item"><strong>Performance:</strong> JMeter (basic knowledge)</li>
+                    <li class="skills-item"><strong>Debugging & Utilities:</strong> Charles Proxy, Fiddler, DevTools, VisBug</li>
+                    <li class="skills-item"><strong>Database Tools:</strong> pgAdmin, DBeaver</li>
+                    <li class="skills-item"><strong>Development & CI/CD:</strong> Git, GitHub, Jenkins</li>
+                    <li class="skills-item"><strong>Mobile Testing Tools:</strong> Android Studio, Xcode</li>
+                    <li class="skills-item"><strong>VR Testing:</strong> Meta Quest 2, Meta Quest 3 / SideQuest (VR testing)
+                    </li>
+                </ul>
+            </section>
+    
+            <section class="education" id="education">
+                <h2>EDUCATION & CERTIFICATES</h2>
+                <ul class="education-list">
+                    <li class="education-item"><strong>Meta (Coursera)</strong> - Programming with JavaScript (May 15, 2025)</li>
+                    <li class="education-item"><strong>Udemy</strong> - Wanna Learn JMeter? (Jan 7, 2024)</li>
+                    <li class="education-item"><strong>Udemy</strong> - Software performance testing using JMeter (Oct 10, 2023)</li>
+                    <li class="education-item"><strong>Stepik</strong> - Web Development for Beginners: HTML & CSS (Apr 2023)</li>
+                    <li class="education-item"><strong>IT-Academy</strong> - Mobile Application Testing (Jan–Feb 2023)</li>
+                    <li class="education-item"><strong>IT-Academy</strong> - Software Testing (Sep–Dec 2021)</li>
+                </ul>
+            </section>
+    
+            <section class="languages" id="languages">
+                <h2>LANGUAGES</h2>
+                <ul class="languages-list">
+                    <li class="languages-item">Russian - Native</li>
+                    <li class="languages-item">Belarusian - Native</li>
+                    <li class="languages-item">English - Intermediate+</li>
+                </ul>
+            </section>
+    
+        </aside>
+    
+        <section class="section" id="main-right">
+            <section class="about" id="about">
+                <h2>ABOUT</h2>
+    
+                <div class="about-content" id="about-content">
+                    <img src="./assets/img/photo.jpg" class="about-photo" alt="Anastasiya Zenevich portrait">
+    
+                    <p>Quality Assurance Engineer with 4+ years of hands-on experience in manual and immersive (VR) testing.
+                        Experienced in creating test documentation (test plans, test cases, checklists), executing
+                        functional and non-functional testing, performance testing with JMeter, API testing, and
+                        collaborating with cross-functional teams to improve product quality. Currently learning test
+                        automation with JavaScript.</p>
+                </div>
+            </section>
+    
+            <section class="experience" id="work-experience">
+                <h2>WORK EXPERIENCE</h2>
+    
+                <h3>QA Engineer — HQSoftware</h3>
+                <p class="period">Jan 2022 – Present</p>
+                <ul class="period-list">
+                    <li class="period-item">Created and maintained test documentation: test plans, test cases, checklists, and test result reports.</li>
+                    <li class="period-item">Performed manual testing (integration, regression, functional, smoke, immersive) for Web, Mobile and VR applications.</li>
+                    <li class="period-item">Conducted performance testing with JMeter and API testing using Postman.</li>
+                    <li class="period-item">Tested interactions between web and mobile/VR applications and verified cross-platform compatibility.</li>
+                    <li class="period-item">Reported and tracked bugs in Jira; collaborated with developers and stakeholders to clarify requirements.</li>
+                </ul>
+    
+                <h3>QA Engineer / Test Lead — IT-Academy</h3>
+                <p class="period">Nov 2021 – Dec 2021</p>
+                <ul class="period-list">
+                    <li class="period-item">Led small team, created test plans and test cases, executed test scenarios and prepared test result reports.</li>
+                </ul>
+    
+            </section>
+    
+            <section class="projects" id="projects">
+                <h2>PROJECTS</h2>
+    
+                <article class="project" id="project-rs">
+                    <h3>RS School project</h3>
+                    <ul class="project-list">
+                        <li class="project-item">GitHub:
+                            <a href="https://github.com/Azenevich/rsschool-cv/blob/gh-pages/cv.md" target="_blank"
+                                rel="noopener noreferrer">CV#1.Markdown & Git</a>
+                        </li>
+                    </ul>
+                </article>
+    
+                <article class="project" id="project-hq">
+                    <h3>HQSoftware projects</h3>
+                    <ul class="project-list">
+                        <li class="project-item">Web application for training medical staff in effective workload distribution within a department.</li>
+                        <li class="project-item">A comprehensive software solution for working with medical imagingdata in
+                            virtual reality: consists of three main components: web application for managing user accounts and system access, desktop application for uploading, processing and converting DICOM (Digital  Imaging and Communications in Medicine) files into a format optimized for immersive 3D
+                            visualization in VR and VR application that allows users to interact with 3D models generated from their medical data.</li>
+                        <li class="project-item">Learning Platform for Safe Driving Skills - educational portal localizedfor 18 countries, supporting multiple roles (students, parents, educators) with articles, videos, and quizzes, admin panel (CMS Joomla)</li>
+                        <li class="project-item">Expert Consultation Platform with Video & Text Responses - web & mobile platform for paid consultations (law, home decor, etc.), supporting both video and text responses via a shared backend system</li>
+                        <li class="project-item">Series of VR training applications developed for Meta Quest devices. Projects cover diverse domains such as medicine, engineering, workplace safety, and airport
+                            operations. The core purpose of theseapplications is immersive skill-building, enabling users to practice reallife tasks in safe, interactive VR environments.</li>
+                    </ul>
+                </article>
+            </section>
+    
+            <section class="codeExample" id="codeExample">
+                <h2>CODE EXAMPLE</h2>
+                <p>Given a string, remove any characters that are unique from the string:</p>
+                <pre class="code-example"><code>function onlyDuplicates(str) {                 
+    return str
+        .split('')
+        .filter((letter) => str.indexOf(letter) !== str.lastIndexOf(letter))
+        .join('')
+}</code></pre>
+            </section>
+    
+            <section class="professional-contributions" id="professional-contributions">
+                <h2>PROFESSIONAL CONTRIBUTIONS & PUBLIC SPEAKING</h2>
+    
+                <article class="meetups">
+                    <h3>Internal Meetups (HQSoftware QA Department)</h3>
+                    <ul class="meetups-list">
+                        <li class="meetups-item">Delivered a knowledge-sharing session on <strong>Git for QA engineers</strong></li>
+                        <li class="meetups-item">Presented on <strong>Specifics of VR and AR Testing</strong></li>
+                    </ul>
+                </article>
+    
+                <article class="conference">
+                    <h3>Conference Participation</h3>
+                    <ul class="conference-list">
+                        <li class="conference-item">Contributed to preparation for the <strong>Open IT Conference (September 2023)</strong>, where the team presented the company’s own product <strong>BodyScope</strong></li>
+                    </ul>
+                </article>
+    
+                <article class="achievements">
+                    <h3>Achievements</h3>
+                    <ul class="achievements-list">
+                        <li class="achievements-item">Strengthened QA team knowledge through internal workshops</li>
+                        <li class="achievements-item">Enhanced company visibility by contributing to conference preparation and product presentation</li>
+                    </ul>
+                </article>
+
+            </section>
+        </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <a href="https://github.com/Azenevich" target="_blank" rel="noopener">GitHub</a>
+        <p class="footer-years">© 2026</p>
+
+        <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank" rel="noopener">
+            <img class="rs-logo" src="./assets/icon/rss-logo.svg" alt="RS School Logo">
+        </a>
+    </footer>
+</div>
 </body>
 </html>

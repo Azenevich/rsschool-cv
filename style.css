@@ -1,0 +1,228 @@
+:root {
+  --max-width: 980px;
+  --accent: #2d3748;
+  --muted: #6b7280;
+  --hr: #e5e7eb;
+  --bg: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  height: 100%;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 148%;
+  margin: 0;
+  padding: 1.5rem 0;
+  color: #050404;
+
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+/* NAV */
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  list-style: none;
+  padding: 15px;
+  background: #26aca5;
+  font-size: 1rem;
+}
+
+.nav-link {
+  display: block;
+  color: rgb(253, 253, 253);
+}
+
+h1, .role {
+    text-align: center;
+    margin: 10px;
+}
+
+/* main-container */
+
+.main-container {
+  align-items: stretch;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px
+}
+
+.column {
+    padding: 0 1rem
+}
+
+/* Left column */
+
+#main-left {
+  border-right: 1px solid var(--hr);
+  padding-right: 1.25rem;
+  background-color: #f6fcfb;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts,
+.skills,
+.education,
+.languages {
+    margin-top: 0.5rem;
+    margin-left: 0;
+}
+
+.contacts-list {
+    margin: 0.5rem;
+    list-style-type: none;
+}
+
+.contacts a:hover {
+  border-bottom-color: var(--hr)
+}
+
+.contacts p,
+.skills p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+}
+
+.contacts-item {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dashed transparent
+}
+
+.skills-list,
+.education-list,
+.languages-list,
+.testing-list,
+.project-list,
+.period-list {
+  margin: 0.25rem 0 1rem 1.2rem;
+}
+
+/* Right column */
+#main-right {
+  padding-left: 0.5rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.about,
+.experience,
+.projects,
+.codeExample,
+.professional-contributions,
+.about-content {
+    margin: 0.5rem 0.25rem;
+}
+
+.about {
+  display: block;
+  align-items: flex-start;
+  gap: 25px;
+}
+
+.about-content {
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.about-photo {
+  width: 140px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.about p {
+  margin: 0;
+  text-align: justify;
+}
+
+.period {
+  color: #8e9291;
+  font-size: 0.95rem;
+  margin: 0.5rem 0 0.5rem 0
+}
+
+.period-list,
+.project-list {
+    margin-left: 2rem;
+}
+
+.project h3,
+.codeExample p,
+.meetups h3,
+.meetups-list,
+.conference,
+.conference-list,
+.achievements h3,
+.achievements-list {
+    margin-top: 0.5rem;
+}
+
+.meetups-item,
+.conference-item,
+.achievements-item {
+    margin-left: 1.8rem;
+}
+
+.code-example {
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.rs-logo {
+  display: flex;
+  margin-top: 0.4rem;
+  display: inline-block;
+  width: 120px;
+  height: 90px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}

@@ -135,6 +135,11 @@ h1, .role {
   text-align: justify;
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+}
+
 .about,
 .experience,
 .projects,
